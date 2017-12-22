@@ -4,9 +4,25 @@ class BoardMember {
     this.homeState = homeState
     this.training = training
   }
-  
+
   veto() {
     return "No, I must disagree"
   }
-  
+
+  approve() {
+
+  }
+
+  doCarity() {
+
+  }
+
+  releasePressStatement() {
+
+  }
+
+  sayHi() {
+
+  }
+
 }
