@@ -10,19 +10,19 @@ class BoardMember {
   }
 
   approve() {
-
+    return "You can do that!"
   }
 
   doCarity() {
-
+    return "I like to help people."
   }
 
   releasePressStatement() {
-
+    return "You will see great things from Scuber."
   }
 
   sayHi() {
-
+    `Hi, my name is ${this.name}. I am from ${this.homeState}, and I was trained in ${this.training}.`
   }
 
 }
